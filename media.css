@@ -1,0 +1,928 @@
+@media (max-width:575px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .col-1 {
+        width: 8.3333%;
+    }
+
+    .col-2 {
+        width: 16.6666%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.3333%;
+    }
+
+    .col-5 {
+        width: 41.6666%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.3333%;
+    }
+
+    .col-8 {
+        width: 66.6666%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.3333%;
+    }
+
+    .col-11 {
+        width: 91.6666%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .topbar-info {
+        justify-content: space-between;
+    }
+
+    .topbar-info .email {
+        margin-left: 20px;
+    }
+
+    .menu-toggle,
+    .contact {
+        font-size: 20px;
+    }
+
+    s.addres,
+    .topbar-social,
+    .nav-wrapper,
+    .side-doctor-card,
+    .side-doctor,
+    .img-3,
+    .img-2 {
+        display: none;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .logo img {
+        padding-top: 10px;
+    }
+
+    .contact {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .menu-toggle-2 {
+        padding-left: 120px;
+        font-size: 28px;
+        color: #2b265d;
+        padding-top: 10px;
+    }
+
+    .left-section h1 {
+        font-size: 65px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .left-section p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .left-section .btn-primary,
+    .btn-secondary {
+        margin: 0 25px;
+    }
+
+    .right-section img {
+        height: auto;
+    }
+
+    .medical-info .service-title {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .medical-info .main-title {
+        font-weight: 400;
+    }
+
+    .medical-info .main-title1 {
+        font-weight: 400;
+    }
+
+    .image-container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-1 {
+        position: relative;
+        top: -15%;
+        left: 10%;
+        width: 450px;
+    }
+
+    .text-container {
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .hero-section-2 .content-section {
+        font-size: 80px;
+        text-align: left;
+    }
+
+    .center-wrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .hero-section-2 .btn-primary {
+        margin-left: 35px;
+    }
+
+    .hero-section-2 .main-image {
+        width: 450px;
+    }
+
+    .numbers .row .stat-box:nth-child(1) {
+        margin-left: 200px;
+    }
+
+    .row .stat-box {
+        font-size: 100px;
+    }
+
+    .image-wrapper {
+        width: 280px;
+        height: 500px;
+    }
+
+    .service-section {
+        width: 450px;
+        justify-content: center;
+    }
+
+    .service-title::after {
+        margin-left: 50px;
+    }
+
+    .icon-text {
+        margin-right: 150px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .footer .logo {
+        margin-left: 200px;
+    }
+
+
+    .footer .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .row>.col-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .col-sm-1 {
+        width: 8.3333%;
+    }
+
+    .col-sm-2 {
+        width: 16.6666%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.3333%;
+    }
+
+    .col-sm-5 {
+        width: 41.6666%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.3333%;
+    }
+
+    .col-sm-8 {
+        width: 66.6666%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.3333%;
+    }
+
+    .col-sm-11 {
+        width: 91.6666%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .address,
+    .topbar-social,
+    .navbar .menu,
+    .side-doctor-card,
+    .side-doctor,
+    .img-3,
+    .img-2 {
+        display: none;
+    }
+
+    .navbar .logo {
+        width: 150px;
+    }
+
+    .navbar .logo {
+        justify-content: space-between;
+    }
+
+    .navbar .logo img {
+        padding-top: 10px;
+    }
+
+    .contact {
+        font-size: 15px;
+        padding-top: -10px;
+        padding-left: 20px;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        margin-left: auto;
+    }
+
+    .menu-toggle-2 {
+        color: #2b265d;
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .menu-toggle-2 i {
+        font-size: 30px;
+        padding: 0px 120px;
+    }
+
+    .left-section h1 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .image-container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-1 {
+        position: relative;
+        top: -15%;
+        left: 10%;
+        width: 900px;
+    }
+
+    .text-container {
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .hero-section-2 .content-section {
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .row>.stat-box:nth-child(1),
+    .row>.stat-box:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .image-wrapper {
+        width: 240px;
+        height: 450px;
+    }
+
+    .service-section {
+        width: 500px;
+        justify-content: center;
+    }
+
+    .service-title::after {
+        margin-left: 50px;
+    }
+
+    .service-card-2 {
+        width: 250px;
+    }
+
+    .icon-text {
+        margin-right: 150px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .footer .logo {
+        margin-left: 50px;
+    }
+    .hours{
+        margin-left: 150px;
+        padding-top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col-md-1 {
+        width: 8.3333%;
+    }
+
+    .col-md-2 {
+        width: 16.6666%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.3333%;
+    }
+
+    .col-md-5 {
+        width: 41.6666%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.3333%;
+    }
+
+    .col-md-8 {
+        width: 66.6666%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.3333%;
+    }
+
+    .col-md-11 {
+        width: 91.6666%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .topbar-social {
+        display: block;
+        justify-content: space-around;
+        padding: 0px 5px;
+    }
+
+    .topbar-social i {
+        padding-right: 10px;
+    }
+
+    .menu-toggle-2,
+    .side-doctor-card,
+    .side-doctor,
+    .img-3 {
+        display: none;
+    }
+
+    .navbar .nav-wrapper,
+    .img-2 {
+        display: block;
+    }
+
+    .left-section h1 {
+        text-align: left;
+        font-size: 45px;
+    }
+
+    .btn-primary {
+        margin-bottom: 18px;
+    }
+
+    .medical-info .service-title,
+    .main-title1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .medical-info .main-title,
+    .service-desc {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .medical-info .service-title {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .medical-info .main-title1,
+    .main-title {
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    .service-title::after {
+        content: '';
+        display: block;
+        width: 300px;
+        height: 2px;
+        background: #cfcfcf;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-1 {
+        position: relative;
+        top: -15%;
+        left: -5px;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: -15%;
+        left: 60%;
+        z-index: 1;
+    }
+
+    .hero-section-2 .main-image {
+        width: 550px;
+    }
+
+    .hero-section-2 .content-section {
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .hero-section-2 h2,
+    .center-wrapper {
+        font-size: 35px;
+    }
+
+    .image-wrapper {
+        width: 300px;
+        height: 500px;
+    }
+
+    .service-section {
+        width: 670px;
+        justify-content: center;
+    }
+
+    .medical-services-2 .row>div:nth-child(4) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-card-2 {
+        width: 190px;
+    }
+
+    .icon-text {
+        margin-right: 180px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .footer .logo {
+        margin-left: 50px;
+    }
+
+    .footer .row {
+        align-items: flex-start;
+    }
+    .hours{
+        margin-left: 200px;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .col-lg-1 {
+        width: 8.3333%;
+    }
+
+    .col-lg-2 {
+        width: 16.6666%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.3333%;
+    }
+
+    .col-lg-5 {
+        width: 41.6666%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.3333%;
+    }
+
+    .col-lg-8 {
+        width: 66.6666%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.3333%;
+    }
+
+    .col-lg-11 {
+        width: 91.6666%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .address,
+    .nav-wrapper,
+    .side-doctor-card,
+    .side-doctor,
+    .img-3 {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .left-section h1 {
+        font-size: 80px;
+    }
+
+    .medical-info .service-title {
+        text-align: left;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .medical-info .main-title1,
+    .main-title {
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .medical-info .main-title {
+        margin-left: -20px;
+    }
+
+    .medical-info .service-desc {
+        margin-left: -10px;
+    }
+
+    .service-title::after {
+        content: '';
+        display: block;
+        width: 300px;
+        height: 2px;
+        background: #cfcfcf;
+        margin-top: 20px;
+        padding-left: -20px;
+    }
+
+    .image-container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-1 {
+        position: relative;
+        top: -15%;
+        left: -5%;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        z-index: 1;
+    }
+
+    .img-3 {
+        position: absolute;
+        top: -5%;
+        left: 40%;
+    }
+
+    .text-container {
+        margin-left: 120px;
+        text-align: left;
+        margin-top: -50px;
+    }
+
+    .hero-section-2 .content-section {
+        margin-left: 70px;
+    }
+
+    .medical-appointment .row>div:nth-child(4) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-section {
+        width: 880px;
+        justify-content: center;
+    }
+
+    .service-card-2 {
+        width: 250px;
+    }
+    .footer .location{
+        padding-left: -20px;
+    }
+
+    .footer .hours{
+        margin-left: -30px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .col-xl-1 {
+        width: 8.3333%;
+    }
+
+    .col-xl-2 {
+        width: 16.6666%;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        width: 33.3333%;
+    }
+
+    .col-xl-5 {
+        width: 41.6666%;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.3333%;
+    }
+
+    .col-xl-8 {
+        width: 66.6666%;
+    }
+
+    .col-xl-9 {
+        width: 75%;
+    }
+
+    .col-xl-10 {
+        width: 83.3333%;
+    }
+
+    .col-xl-11 {
+        width: 91.6666%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+
+    .medical-info .service-title {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .medical-info .main-title1 {
+        text-align: right;
+        font-size: 25px;
+    }
+
+    .image-container {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-1 {
+        position: relative;
+        top: -15%;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        z-index: 1;
+    }
+
+    .img-3 {
+        position: absolute;
+        top: -5%;
+        left: 50%;
+    }
+
+    .image-wrapper {
+        width: 250px;
+        height: 550px;
+        margin: 0 10px;
+    }
+
+    .service-section {
+        width: 1150px;
+        justify-content: center;
+    }
+    .footer .logo{
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .col-xxl-1 {
+        width: 8.3333%;
+    }
+
+    .col-xxl-2 {
+        width: 16.6666%;
+    }
+
+    .col-xxl-3 {
+        width: 25%;
+    }
+
+    .col-xxl-4 {
+        width: 33.3333%;
+    }
+
+    .col-xxl-5 {
+        width: 41.6666%;
+    }
+
+    .col-xxl-6 {
+        width: 50%;
+    }
+
+    .col-xxl-7 {
+        width: 58.3333%;
+    }
+
+    .col-xxl-8 {
+        width: 66.6666%;
+    }
+
+    .col-xxl-9 {
+        width: 75%;
+    }
+
+    .col-xxl-10 {
+        width: 83.3333%;
+    }
+
+    .col-xxl-11 {
+        width: 91.6666%;
+    }
+
+    .col-xxl-12 {
+        width: 100%;
+    }
+
+    .image-wrapper {
+        width: 300px;
+        height: 550px;
+        margin: 0 10px;
+    }
+
+    .service-section {
+        width: 1200px;
+        justify-content: center;
+    }
+
+    .service-card-2 {
+        width: 350px;
+    }
+}
